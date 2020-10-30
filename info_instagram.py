@@ -5,7 +5,6 @@ import sys as n
 import optparse
 parser = optparse.OptionParser()
 parser.add_option("-u", "--user",dest="user", help="Check username info")
-parser.add_option("-e", "--email",dest="email", help="Check Email in instagram")
 (options, arguments) = parser.parse_args()
 W = '\033[0m'  # white (normal)
 R = '\033[31m'  # red
