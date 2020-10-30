@@ -79,7 +79,7 @@ else:
 def emailPhoneIsuue(info):
     try:
         if info['obfuscated_email']:
-            print(W + "His Phone number Is: " + G + info['obfuscated_email'])
+            print(W + "His Phone Email Is: " + G + info['obfuscated_email'])
         else:
             print("oh")
     except KeyError:
